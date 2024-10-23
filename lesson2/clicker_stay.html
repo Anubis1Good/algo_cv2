@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crazy Clicker</title>
+</head>
+<body>
+    <style>
+        button{
+            padding: 20px;
+            background-color: rgb(25, 168, 25);
+            border: 1px solid black;
+            border-radius: 10px;
+            color: white;
+            font-size: 20px;
+            position: absolute;
+            min-width: 150px;
+        }
+        body {
+            background-color: rgb(116, 166, 235);
+        }
+    </style>
+    <button>0</button>
+    <script>
+        const btn = document.querySelector('button')
+        btn.onclick = ()=> {
+            btn.innerText = +btn.innerText +1
+        }
+
+    </script>
+</body>
+</html>
