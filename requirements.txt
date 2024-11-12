@@ -1,0 +1,10 @@
+numpy
+opencv-python
+PyAutoGUI
+ultralytics
+easyocr
+deepface
+tf-keras
+mediapipe
+torch
+torchvision
