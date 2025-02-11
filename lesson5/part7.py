@@ -79,7 +79,7 @@ while True:
         cv2.imshow("YOLOv8 Tracking", frame)
         out.write(frame)  # запись кадра в выходное видео
     # Прерывание цикла при нажатии клавиши 'Esc'
-    if cv2.waitKey(1) == 27:
+    if cv2.waitKey(100) == 27:
         break
 # Освобождение видеозахвата и закрытие всех окон OpenCV
 cap.release()
